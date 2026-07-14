@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary: #
+
+}
+body{
+    background: linear-gradient(#dcf8f3 , #fff);
+    font-family: it;
+}
+
+section{
+   overflow: hidden;
+}
+.hero{
+    min-height:90vh;
+
+}
+.hero-image{
+
+    position: relative;
+
+    width:100%;
+
+    height:600px;
+
+}
+.hero-person img{
+    border-radius: 20px;
+    height: 580px;
+    
+}
+
+.send-card{
+
+    position:absolute;
+
+    top:40px;
+
+    left:-30px;
+
+    background:#fff;
+
+   padding: 10px 10px;
+
+    border-radius:15px;
+
+    width:250px;
+    height: 100px;
+
+}
+.income-card{
+
+    position:absolute;
+
+    bottom:90px;
+
+    left:-50px;
+
+    background:#fff;
+
+    padding:18px;
+
+    border-radius:15px;
+
+}
+.credit-card{
+
+    position:absolute;
+    right: 0px;
+    bottom: 10%;
+    width: 200px;
+    height: 220px;
+    padding:20px;
+}
+.icon{
+
+    position:absolute;
+
+    width:50px;
+
+    height:50px;
+
+    border-radius:12px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#fff;
+
+}
+.purple{
+
+    background:#5B4BFF;
+
+    left:-50px;
+
+    top:200px;
+
+}
+.yellow{
+
+    background:#FFC54D;
+
+    right: 80px;
+
+    top:30px;
+
+}
+.pink{
+
+    background:#FF9E8D;
+
+    right: 140px;
+    bottom:0px;
+
+}
+.companies img{
+    max-width: 140px;
+    transition: 0.3s;
+}
+
+.companies img:hover{
+    transform: scale(1.1);
+}
+.partner{
+    background-color: #F9F8FE;
+}
+.icon-box icon-box-1 icon-box-2{
+
+width:60px;
+
+height:40px;
+
+background:#fff;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+font-size:24px;
+
+color:#54BD95;
+
+}
+.features{
+    background-color: white;
+}
